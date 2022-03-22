@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
+  rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <!-- Шапка профиля -->
+  <header class="header"> 
+   <div class="container main-nav">
+    <nav class="header-nav">
+      <a class="logo" href="/" lang="en"> <span class="logo-first">Web</span>Studio</a>
+      <ul class="header-list list">
+        <li class="header-item"><a href="./index.html" class="header-link curent">Студия</a></li>
+        <li class="header-item"><a href="./portfolio.html" class="header-link">Портфолио</a></li>
+        <li class="header-item"><a href="" class="header-link">Контакты</a></li>
+      </ul>
+    </nav>
+    <ul class="header-contacts list">
+        <li class="header-contacts-item"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+        <li class="header-contacts-item"><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
+    </ul>
+   </div>
+   </header>
+  <main>
+    <!-- Герой -->
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса </h1>
+        <button type="button" class="hero-btn">Заказать услугу</button>
+      </div>
+    </section>
+  <!-- Особенности -->
+  <section class="hang section">
+    <div class="container">
+      <h2 class="hang-title" hidden>Особенности</h2>
+      <ul class="hang-list list">
+        <li class="hang-item">
+          <h3 class="hang-subtitle">Внимание к деталям</h3>
+          <p class="hang-text">
+            Идейные соображения, а также начало повседневной работы по формированию позиции.
+          </p>
+        </li>
+        <li class="hang-item">
+          <h3 class="hang-subtitle">Пунктуальность</h3>
+          <p class="hang-text">
+            Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+          </p>
+        </li>
+        <li class="hang-item">
+          <h3 class="hang-subtitle">Планирование</h3>
+          <p class="hang-text">
+            Равным образом консультация с широким активом в значительной степени обуславливает.
+          </p>
+        </li>
+        <li class="hang-item">
+          <h3 class="hang-subtitle">Современные технологии</h3>
+          <p class="hang-text">
+            Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Чем мы занимаемся -->
+  <section class="about section">
+    <div class="container">
+      <h2 class="about-title">Чем мы занимаемся</h2>
+      <ul class="about-list list">
+        <li class="about-item"><img src="./imges/img01.jpg" alt="Создание сайтов" width="370" height="294" ></li>
+        <li class="about-item"><img src="./imges/img02.jpg" alt="Адаптация под мобильные устройства" width="370" height="294"></li>
+        <li class="about-item"><img src="./imges/img03.jpg" alt="Выбор цветовой гаммы" width="370" height="294"></li>
+      </ul>
+    </div>
+  </section>
+  <!-- Наша команда -->
+  <section class="team section">
+    <div class="container">
+      <h2 class="team-title">Наша команда</h2>
+      <ul class="team-list list">
+        <li class="team-item">
+          <img src="./imges/img04.jpg" alt="фото Игорь Демьяненко" width="270" height="260">
+          <div class="team-container-title">
+            <h3 class="team-after-title">Игорь Демьяненко</h3>
+            <p lang="en" class="team-text">Product Designer</p>
+          </div>
+        </li>
+        <li class="team-item">
+          <img src="./imges/img05.jpg" alt="фото Ольга Репина" width="270" height="260">
+          <div class="team-container-title">
+            <h3 class="team-after-title">Ольга Репина</h3>
+            <p lang="en" class="team-text">Frontend Developer</p>
+          </div>
+        </li>
+        <li class="team-item">
+          <img src="./imges/img06.jpg" alt="фото Николай Тарасов" width="270" height="260">
+          <div class="team-container-title">
+            <h3 class="team-after-title">Николай Тарасов</h3>
+            <p lang="en" class="team-text">Marketing</p>
+          </div>          
+        </li>
+         <li class="team-item">
+          <img src="./imges/img07.jpg" alt="фото Михаил Ермаков" width="270" height="260">
+          <div class="team-container-title">
+            <h3 class="team-after-title">Михаил Ермаков</h3>
+            <p lang="en" class="team-text">UI Designer</p>
+          </div>          
+        </li>
+      </ul>
+    </div>
+  </section>
+  </main>
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="container">
+      <a class="logo-footer" href="/" lang="en"><span class="logo-first">Web</span>Studio</a>
+      <address class="footer-adress">
+          <ul class="footer-list list">
+              <li class="footer-item"><a href="https://goo.gl/maps/b5EeNN71cbGi42LY8" target="_blank" rel ="noopener noreferrer" class="footer-link-map">г. Киев, пр-т Леси Украинки, 26</a></li>
+              <li class="footer-item"><a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a></li>
+              <li class="footer-item"><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
+          </ul>
+      </address>
+    </div>
+  </footer>
+</body>
+</html>
