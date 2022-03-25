@@ -322,7 +322,8 @@ margin-left: 50px;
 }
 
 .about-title,
-.team-title {
+.team-title,
+.cliens-title {
     margin-top: 0;
     margin-bottom: 50px;
 
@@ -447,6 +448,56 @@ margin-left: 50px;
 .team-social-icon:hover {
     fill: currentColor;
 }
+
+
+/* Наши клиенты */
+
+.cliens-list {
+    display: flex;
+    padding: 0;
+    border: none;
+    list-style: none;
+    justify-content: center;
+}
+
+.cliens-item {
+    width: calc((100%-150)/6);
+    margin-right: 30px;
+
+    
+
+}
+
+.cliens-item:last-child {
+    margin-right: 0;
+}
+
+.cliens-link {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-icon);
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}
+
+.cliens-link:hover {
+    color: var(--accent-color);
+    border:  1px solid var(--accent-color);
+}
+
+.cliens-icon {
+    width: 106px;
+    height: 60px;
+
+    fill: currentColor;
+}
+
+
 
 /* Footer */
 .footer {
