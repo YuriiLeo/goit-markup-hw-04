@@ -280,7 +280,7 @@ margin-left: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: currentColor;
+    fill: var(--title-text-color);
 
 }
 .hang-icon {
@@ -393,14 +393,13 @@ margin-left: 50px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 }
 
 .team-social-list {
     display: flex;
     padding: 0;
     border: none;
-    margin-top: 16px;
-    margin-bottom: 30px;
     list-style: none;
     flex-wrap: wrap;
     justify-content: center;
@@ -529,9 +528,9 @@ letter-spacing: 0.03em;
     margin-bottom: 9px;
 }
 
-.container.footer {
+.footer .container {
     display: flex;
-
+    align-items: baseline;
 }
 .wrapper {
     margin-left: 70px;
@@ -631,8 +630,12 @@ letter-spacing: 0.03em;
     margin-bottom: 30px;
 }
 
-.projects-item:hover,
-.projects-item:focus {
+.projects-link {
+    display: block;
+}
+
+.projects-link:hover,
+.projects-link:focus {
     box-shadow: 
     0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06), 
