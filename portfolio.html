@@ -19,15 +19,23 @@
      <nav class="header-nav">
        <a class="logo" href="/" lang="en"> <span class="logo-first">Web</span>Studio</a>
        <ul class="header-list list">
-         <li class="header-item"><a href="./index.html" class="header-link">Студия</a></li>
+         <li class="header-item"><a href="./index.html" class="header-link ">Студия</a></li>
          <li class="header-item"><a href="./portfolio.html" class="header-link curent">Портфолио</a></li>
          <li class="header-item"><a href="" class="header-link">Контакты</a></li>
        </ul>
      </nav>
      <ul class="header-contacts list">
-         <li class="header-contacts-item"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-         <li class="header-contacts-item"><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
-     </ul>
+       <li class="header-contacts-item">
+         <a href="mailto:info@devstudio.com" class="contact-link icon-mail">
+         <svg class="header-icon" width="16px" height="12px">
+           <use href="./imges/icon.svg#icon-envelope"></use>
+         </svg> info@devstudio.com</a></li>
+       <li class="header-contacts-item">
+         <a href="tel:+380961111111" class="contact-link icon-tel">
+         <svg class="header-icon" width="10px" height="16px">
+         <use href="./imges/icon.svg#icon-smartphone"></use>
+       </svg> +38 096 111 11 11</a></li>
+   </ul>
     </div>
     </header>
   <main>
@@ -132,8 +140,9 @@
   </main>
   <!-- Подвал -->
   <footer class="footer">
-    <div class="container">
-      <a class="logo-footer" href="/" lang="en"><span class="logo-first">Web</span>Studio</a>
+    <div class="container footer">
+      <div >
+        <a class="logo-footer" href="/" lang="en"><span class="logo-first">Web</span>Studio</a>
       <address class="footer-adress">
           <ul class="footer-list list">
               <li class="footer-item"><a href="https://goo.gl/maps/b5EeNN71cbGi42LY8" target="_blank" rel ="noopener noreferrer" class="footer-link-map">г. Киев, пр-т Леси Украинки, 26</a></li>
@@ -141,6 +150,40 @@
               <li class="footer-item"><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
           </ul>
       </address>
+      </div>
+      <div class="wrapper">
+            <h3 class="footer-title">присоединяйтесь</h3>
+      <ul class="footer-social-list list">
+        <li class="footer-social-item">
+          <a href="" class="footer-social-link" aria-label="Instagram link">
+            <svg class="footer-social-icon" >
+              <use href="./imges/icon.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+           <a href="" class="footer-social-link" aria-label="Twitter link">
+            <svg class="footer-social-icon">
+              <use href="./imges/icon.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a href="" class="footer-social-link" aria-label="Facebook link">
+            <svg class="footer-social-icon">
+              <use href="./imges/icon.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a href="" class="footer-social-link" aria-label="Linkedin link">
+            <svg class="footer-social-icon">
+              <use href="./imges/icon.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      </div>
     </div>
   </footer>
 </body>
