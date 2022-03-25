@@ -111,6 +111,10 @@ a {
 .portfolio-btn:focus {
     color: var(--primary-white-color);
     background-color: #2196F3;
+    box-shadow: 
+    0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 1px 2px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .hero-btn {
@@ -190,7 +194,8 @@ a {
     margin-right: 10px;
 }
 
-.header-icon:hover {
+.header-icon:hover,
+.header-icon:focus {
     fill: currentColor;
 }
 
@@ -403,25 +408,12 @@ margin-left: 50px;
 
 
 .team-social-item {
-    margin-top: 16px;
     margin-right: 10px;
    
 }
 .team-social-item:last-child {
     margin-right: 0;
 }
-/* .team-social-item {
-    width: calc((100%-30px)/4);
-    margin-top: 16px;
-    margin-right: 10px;
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.team-social-item:last-child {
-    margin-right: 0;
-}  */
 
 .team-social-link {
     width: 44px;
@@ -433,7 +425,8 @@ margin-left: 50px;
     color: var(--color-icon);
     background-color: var(--background-first);
 }
-.team-social-link:hover {
+.team-social-link:hover,
+.team-social-link:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
@@ -445,7 +438,8 @@ margin-left: 50px;
     fill: currentColor;
 }
 
-.team-social-icon:hover {
+.team-social-icon:hover,
+.team-social-icon:focus {
     fill: currentColor;
 }
 
@@ -485,7 +479,8 @@ margin-left: 50px;
     
 }
 
-.cliens-link:hover {
+.cliens-link:hover,
+.cliens-link:focus {
     color: var(--accent-color);
     border:  1px solid var(--accent-color);
 }
@@ -534,6 +529,74 @@ letter-spacing: 0.03em;
     margin-bottom: 9px;
 }
 
+.container.footer {
+    display: flex;
+
+}
+.wrapper {
+    margin-left: 70px;
+}
+
+.footer-title {
+    padding: 0;
+    margin: 0;
+    color: var(--primary-white-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
+
+.footer-social-list {
+    display: flex;
+    padding: 0;
+    border: none;
+    margin-top: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.footer-social-item {
+    margin-right: 10px;
+   
+}
+.footer-social-item:last-child {
+    margin-right: 0;
+}
+
+.footer-social-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--primary-white-color);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.footer-social-icon {
+    width: 20px;
+    height: 20px;
+
+    fill: currentColor;
+}
+
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+    fill: currentColor;
+}
+
 /* Портфолио */
 
 /* Кнопки проектов */
@@ -568,6 +631,13 @@ letter-spacing: 0.03em;
     margin-bottom: 30px;
 }
 
+.projects-item:hover,
+.projects-item:focus {
+    box-shadow: 
+    0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .projects-item:nth-child(3n) {
     margin-right: 0;
